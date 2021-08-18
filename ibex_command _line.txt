@@ -1,0 +1,29 @@
+###basic usage###
+#ilogin
+ssh wangc0c@ilogin.ibex.kaust.edu.sa
+#disk usage in /home/wangc0c
+quota
+#disk usage in /ibex/scratch/wangc0c
+bquota
+#
+
+###tools usage###
+#check the versions for your tool
+module av anvio
+#load the tool
+module load anvio/6.2
+#if you are using conda
+module load miniconda3/4.7.12.1
+conda env list
+source activate anvio-7
+#unload tools
+module unload anvio-7
+
+###slurm running###
+#submit a job
+sbatch ###.sh
+#check the running of job
+squeue watch -u wangc0c
+#cancel job
+scancel job_id
+#
