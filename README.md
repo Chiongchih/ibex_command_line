@@ -5,8 +5,8 @@ A few ppl I need to say thank you:
 
 Roden Deng Luo, who always love to share and generous. 
 
-Nagarajan Kathiresan, who helped me a lot of time with patience.
+Nagarajan Kathiresan, who helped me a lot of times with ultimate patience.
 
-David R. Pugh, who helps me with a lot issues, he is true talent. 
+David R. Pugh, who helps me with a lot of issues, he is a true talent. 
 
-The ibex team, they are the most nice people I have ever met, I love them all. 
+The ibex team, they are the most considerate people I have ever met, I love them all. 
