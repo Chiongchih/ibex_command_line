@@ -19,14 +19,23 @@ source activate anvio-7
 #unload tools
 module unload anvio-7
 
-###slurm running###
-#submit a job
+###job/slurm running###
+#direct run with proper setup-srun
+srun -n 1 -N 1 --time=4:00:00 bash -l
+logout
+srun -p batch --pty --time=4:00:00 --constraint=[cpu] --cpus-per-task=1 --gres=gpu:1 bash -l
+#submit a job to slurm
 sbatch ###.sh
 #check the running of job
 squeue watch -u wangc0c
 #cancel job
 scancel job_id
-#
+
+###node in ibex###
+# check available node
+sinfo -p batch|less -SN
+inodes
+
 
 
 
