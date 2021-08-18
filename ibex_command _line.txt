@@ -27,3 +27,10 @@ squeue watch -u wangc0c
 #cancel job
 scancel job_id
 #
+
+
+
+
+
+
+
