@@ -22,6 +22,7 @@ module unload anvio-7
 ###job/slurm running###
 #direct run with proper setup-srun
 srun -n 1 -N 1 --time=4:00:00 bash -l
+srun -n 1 -N 1 --time=4:00:00 --mem=60G  bash -l
 logout
 srun -p batch --pty --time=4:00:00 --constraint=[cpu] --cpus-per-task=1 --gres=gpu:1 bash -l
 #submit a job to slurm
