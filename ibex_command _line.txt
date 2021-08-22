@@ -40,6 +40,10 @@ scancel job_id
 sinfo -p batch|less -SN
 inodes
 
+###Real quick setup###
+salloc -n 1 -N 1 --time=8:00:00 --mem=60G  bash -l
+module load miniconda3/4.7.12.1
+source activate anvio-7
 
 
 
