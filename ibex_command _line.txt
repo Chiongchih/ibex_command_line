@@ -42,6 +42,8 @@ inodes
 
 ###Real quick setup###
 salloc -n 1 -N 1 --time=8:00:00 --mem=60G  bash -l
+hostname
+ssh cn506-07-r
 module load miniconda3/4.7.12.1
 source activate anvio-7
 
