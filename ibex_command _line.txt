@@ -47,6 +47,12 @@ ssh cn506-07-r
 module load miniconda3/4.7.12.1
 source activate anvio-7
 
+anvi-refine -p ./EJH_MT_042220_anvio.bam-ANVIO_PROFILE/PROFILE.db -c EJH-MT-042220.anvio.db -C metabat --server-only --ip-address cn506-02-r.ibex.kaust.edu.sa
+http://cn513-10-l.ibex.kaust.edu.sa:8082/  
+#get the hostname
+hostname
+login509-02-r.ibex.kaust.edu.sa:8082/  
+anvi-interactive -p merged_profile/PROFILE.db -c contigs.db --server-only -P 9191 --ip-address cn513-10-l.ibex.kaust.edu.sa
 
 
 
