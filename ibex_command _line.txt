@@ -42,10 +42,15 @@ inodes
 
 ###Real quick setup###
 salloc -n 1 -N 1 --time=8:00:00 --mem=60G  bash -l
+srun --jobid 24429895 --overlap --pty bash
 hostname
-ssh cn506-07-r
 module load miniconda3/4.7.12.1
 source activate anvio-7
+
+###old quick setup, doesnot work now on ibex###
+salloc -n 1 -N 1 --time=8:00:00 --mem=60G  bash -l
+hostname
+ssh cn506-07-r
 
 anvi-refine -p ./EJH_MT_042220_anvio.bam-ANVIO_PROFILE/PROFILE.db -c EJH-MT-042220.anvio.db -C metabat --server-only --ip-address cn506-02-r.ibex.kaust.edu.sa
 http://cn513-10-l.ibex.kaust.edu.sa:8082/  
