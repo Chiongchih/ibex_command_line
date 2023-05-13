@@ -5,6 +5,8 @@ ssh wangc0c@ilogin.ibex.kaust.edu.sa
 quota
 #disk usage in /ibex/scratch/wangc0c
 bquota
+#disk usage in /ibex/scratch/proejcts/c2188
+bquota -g ibex-c2188
 #
 
 ###tools usage###
