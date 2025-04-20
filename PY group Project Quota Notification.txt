@@ -1,0 +1,7 @@
+Quota Storage Expire_time Address 
+c2284 15TB 2027-June /ibex/project/c2284 df -Th /ibex/project/c2284
+c2221 10TB 2026-May /ibex/project/c2221 df -Th /ibex/project/c2221
+e3015 10TB 2027-Nov /ibex/project/e3015/ df -Th /ibex/project/e3015
+e3018 20TB 2027-Nov /ibex/project/e3018 df -Th /ibex/project/e3018
+c2190 10TB 2025-Oct /ibex/scratch/projects/c2190 bquota -g ibex-c2190
+c2188 10TB 2025-Oct /ibex/scratch/projects/c2188 bquota -g ibex-c2188
